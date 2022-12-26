@@ -1,5 +1,4 @@
-O_package com.backen
-d.backend.dto;
+package com.backend.backend.dto;
 
 import lombok.Data;
 
