@@ -2,8 +2,6 @@ package com.backend.backend.dto;
 
 import lombok.Data;
 
-import java.sql.Date;
-import java.sql.Time;
 
 @Data
 public class OfertaDto{

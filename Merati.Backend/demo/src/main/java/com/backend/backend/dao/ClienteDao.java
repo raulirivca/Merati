@@ -1,7 +1,7 @@
-package com.backend.backend.service;
+package com.backend.backend.dao;
 
 import com.backend.backend.dto.ClienteDto;
 
-public interface ServicioCliente {
+public interface ClienteDao {
     ClienteDto obtenerInfoCliente();
 }
