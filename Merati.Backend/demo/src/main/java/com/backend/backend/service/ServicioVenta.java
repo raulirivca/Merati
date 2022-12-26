@@ -1,4 +1,4 @@
-package com.backend.backend.servicio;
+package com.backend.backend.service;
 
 import com.backend.backend.dto.VentaDto;
 

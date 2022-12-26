@@ -1,8 +1,8 @@
-package com.backend.backend.servicio.Implementacion;
+package com.backend.backend.service.Implementacion;
 
 import com.backend.backend.dao.OrdenPedidoDao;
 import com.backend.backend.dto.OrdenPedidoDto;
-import com.backend.backend.servicio.ServicioOrdenPedido;
+import com.backend.backend.service.ServicioOrdenPedido;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
