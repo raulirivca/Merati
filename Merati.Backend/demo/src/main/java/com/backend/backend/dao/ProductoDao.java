@@ -4,5 +4,5 @@ import com.backend.backend.dto.ProductoDto;
 
 public interface ProductoDao {
 
-    ProductoDto mostrarProductosxTipo();
+    ProductoDto obtenerInfoProducto();
 }
