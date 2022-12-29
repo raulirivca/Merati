@@ -10,7 +10,6 @@ public class OrdenPedidoDto{
     private Integer Cantidad;
     private Date Fecha_Pedido;
     private String Ubicacion;
-    private Integer Cod_Empelado;
     private Integer Cod_Cliente;
 
 
@@ -19,7 +18,6 @@ public class OrdenPedidoDto{
         this.Cantidad = Cantidad;
         this.Fecha_Pedido = Fecha_Pedido;
         this.Ubicacion = Ubicacion;
-        this.Cod_Empelado = Cod_Empelado;
         this.Cod_Cliente = Cod_Cliente;
 
     }
