@@ -13,8 +13,8 @@ public class ServicioOrdenPedidoImpl implements ServicioOrdenPedido {
     @Autowired
     OrdenPedidoDao dao;
     @Override
-    public OrdenPedidoDto obtenerInfoOrdenPedido() {
-        return dao.obtenerInfoOrdenPedido();
+    public OrdenPedidoDto extraerOrdenPedido() {
+        return (OrdenPedidoDto) dao.extraerOrdenPedido();
     }
 }
 

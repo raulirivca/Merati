@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class Producto implements ProductoDao {
+public class ProductoImpl implements ProductoDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
     private Connection conexion;
@@ -39,22 +39,20 @@ public class Producto implements ProductoDao {
     }
     @Override
     public List<ProductoDto> obtenerInfoProducto(ProductoDto producto) {
-        List<ProductoDto> producto = new ArrayList<>();
-        String sql = "select p.nombre,t.descripcion,t.precio,t.stock from producto p inner join productoxtipo pt on p.cod_producto=pt.cod_producto \r\n"
-        		+ "inner join tipo t on pt.cod_tipo=t.cod_tipo";
+        producto = new ProductoDto();
+        String sql = " select p.nombre,t.descripcion,t.precio,t.stock from producto p inner join productoxtipo pt on p.cod_producto=pt.cod_producto \r\n"
+        		+ " inner join tipo t on pt.cod_tipo=t.cod_tipo ";
         try {
             obtenerConexion();
             PreparedStatement sentencia = conexion.prepareStatement(sql);
             sentencia.setInt(1, producto.getCod_Producto());
             ResultSet resultado = sentencia.executeQuery();
-            while (resultado.next()){
-            	producto.add(extraerProducto(resultado));
-            }
+
             cerrarConexion(resultado,sentencia);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        return producto;
+        return (List<ProductoDto>) producto;
     }
 
     private ProductoDto extraerProducto(ResultSet resultado) throws SQLException {

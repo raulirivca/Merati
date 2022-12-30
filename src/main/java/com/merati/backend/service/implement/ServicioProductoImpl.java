@@ -7,14 +7,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional
 public class ServicioProductoImpl implements ServicioProducto {
     @Autowired
     ProductoDao dao;
     @Override
-    public ProductoDto obtenerInfoProducto() {
-        return dao.obtenerInfoProducto();
+    public List<ProductoDto>  obtenerInfoProducto(ProductoDto producto) {
+        return (List<ProductoDto>) dao.obtenerInfoProducto(producto);
     }
 }
 

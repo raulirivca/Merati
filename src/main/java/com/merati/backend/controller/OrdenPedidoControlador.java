@@ -12,12 +12,12 @@ public class OrdenPedidoControlador {
     private ServicioOrdenPedido service;
     @RequestMapping(
             value = "/obtenerOrdenPedido",
-            method = RequestMethod.POST,
+            method = RequestMethod.GET,
             produces = "application/json;charset=utf-8"
     )
     public @ResponseBody
     OrdenPedidoDto obtenerInfoOrdenPedido(){
-        return service.obtenerInfoOrdenPedido();
+        return service.extraerOrdenPedido();
     }
 }
 

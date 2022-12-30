@@ -2,7 +2,9 @@ package com.merati.backend.dao;
 
 import com.merati.backend.dto.ProductoDto;
 
+import java.util.List;
+
 public interface ProductoDao {
 
-    ProductoDto obtenerInfoProducto();
+    List<ProductoDto> obtenerInfoProducto(ProductoDto producto);
 }

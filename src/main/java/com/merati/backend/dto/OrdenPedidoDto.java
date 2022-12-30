@@ -13,12 +13,12 @@ public class OrdenPedidoDto{
     private Integer Cod_Cliente;
 
 
-    public OrdenPedidoDto(Integer Cod_Pedido,Integer Cantidad, Date Fecha_Pedido,String Ubicacion,Integer Cod_Empelado,Integer Cod_Cliente) {
+    public OrdenPedidoDto(int codPedido, int cantidad, Date fechaPedido, String ubicacion, int codCliente) {
+        super();
         this.Cod_Pedido = Cod_Pedido;
         this.Cantidad = Cantidad;
         this.Fecha_Pedido = Fecha_Pedido;
         this.Ubicacion = Ubicacion;
         this.Cod_Cliente = Cod_Cliente;
-
     }
 }

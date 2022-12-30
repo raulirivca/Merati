@@ -2,26 +2,14 @@ package com.merati.backend.dto;
 
 import lombok.Data;
 
-import javax.persistence.*;
-import java.io.Serializable;
 
-
-@Entity
-@Table(name = "Perfil",uniqueConstraints = @UniqueConstraint(columnNames = "Usuario"))
-public class PerfilDto implements Serializable {
-
-
-    public PerfilDto(Integer Cod_Perfil, String Usuario, String Contrasena, String TipoUsuario) {
-        this.Cod_Perfil = Cod_Perfil;
-        this.Usuario = Usuario;
-        this.Contrasena = Contrasena;
-        this.TipoUsuario = TipoUsuario;
-        
-    }
-
-    public PerfilDto() {
-
-    }
+public class PerfilDto {
+    private Integer Cod_Perfil;
+    private String Nombre;
+    private String Apellidopaterno;
+    private String Apellidomaterno;
+    private String Usuario;
+    private String Contrasena;
 
     public Integer getCod_Perfil() {
         return Cod_Perfil;
@@ -31,10 +19,33 @@ public class PerfilDto implements Serializable {
         Cod_Perfil = cod_Perfil;
     }
 
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String nombre) {
+        Nombre = nombre;
+    }
+
+    public String getApellidopaterno() {
+        return Apellidopaterno;
+    }
+
+    public void setApellidopaterno(String apellidopaterno) {
+        Apellidopaterno = apellidopaterno;
+    }
+
+    public String getApellidomaterno() {
+        return Apellidomaterno;
+    }
+
+    public void setApellidomaterno(String apellidomaterno) {
+        Apellidomaterno = apellidomaterno;
+    }
+
     public String getUsuario() {
         return Usuario;
     }
-
 
     public void setUsuario(String usuario) {
         Usuario = usuario;
@@ -48,12 +59,17 @@ public class PerfilDto implements Serializable {
         Contrasena = contrasena;
     }
 
-    public String getTipoUsuario() {
-        return TipoUsuario;
+    public PerfilDto(Integer cod_Perfil, String nombre, String apellidopaterno, String apellidomaterno, String usuario, String contrasena) {
+        super();
+        this.Cod_Perfil = cod_Perfil;
+        this.Nombre = nombre;
+        this.Apellidopaterno = apellidopaterno;
+        this.Apellidomaterno = apellidomaterno;
+        this.Usuario = usuario;
+        this.Contrasena = contrasena;
     }
 
-    public void setTipoUsuario(String tipoUsuario) {
-        TipoUsuario = tipoUsuario;
+    public PerfilDto() {
     }
 }
 
