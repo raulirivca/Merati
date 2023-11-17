@@ -1,0 +1,15 @@
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\bin\Debug\net6.0\Merati.Queries.deps.json
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\bin\Debug\net6.0\Merati.Queries.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\bin\Debug\net6.0\Merati.Queries.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\bin\Debug\net6.0\Merati.ViewModel.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\bin\Debug\net6.0\Merati.ViewModel.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\Merati.Queries.csproj.AssemblyReference.cache
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\Merati.Queries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\Merati.Queries.AssemblyInfoInputs.cache
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\Merati.Queries.AssemblyInfo.cs
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\Merati.Queries.csproj.CoreCompileInputs.cache
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\Merati.Queries.csproj.CopyComplete
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\Merati.Queries.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\refint\Merati.Queries.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\Merati.Queries.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Queries\obj\Debug\net6.0\ref\Merati.Queries.dll

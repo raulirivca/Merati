@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplication", "Aplication", "{42B9657C-92A5-49CA-9CBB-10CEE5446679}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4EE62CEC-103F-44A5-A144-49C95F54AB88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{576A85CB-69E5-448A-B7EF-BA58494B2A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merarti.Api", "Merarti.Api\Merarti.Api.csproj", "{8B6FBDA4-82B5-49A8-B816-82C97F5DD9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merati.Queries", "Merati.Queries\Merati.Queries.csproj", "{00C8F7AF-2886-46FA-BD81-882C4C8AE16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merati.ViewModel", "Merati.ViewModel\Merati.ViewModel.csproj", "{7776C587-CE78-4106-B290-732DAF4638E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merati.Model", "Merati.Model\Merati.Model.csproj", "{7989168B-4793-4B10-8883-FB3D61C68C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merati.Repository", "Merati.Repository\Merati.Repository.csproj", "{CB7726CB-2593-4391-81C5-66B208A26533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B6FBDA4-82B5-49A8-B816-82C97F5DD9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6FBDA4-82B5-49A8-B816-82C97F5DD9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6FBDA4-82B5-49A8-B816-82C97F5DD9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6FBDA4-82B5-49A8-B816-82C97F5DD9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C8F7AF-2886-46FA-BD81-882C4C8AE16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C8F7AF-2886-46FA-BD81-882C4C8AE16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C8F7AF-2886-46FA-BD81-882C4C8AE16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C8F7AF-2886-46FA-BD81-882C4C8AE16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7776C587-CE78-4106-B290-732DAF4638E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7776C587-CE78-4106-B290-732DAF4638E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7776C587-CE78-4106-B290-732DAF4638E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7776C587-CE78-4106-B290-732DAF4638E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7989168B-4793-4B10-8883-FB3D61C68C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7989168B-4793-4B10-8883-FB3D61C68C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7989168B-4793-4B10-8883-FB3D61C68C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7989168B-4793-4B10-8883-FB3D61C68C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB7726CB-2593-4391-81C5-66B208A26533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB7726CB-2593-4391-81C5-66B208A26533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB7726CB-2593-4391-81C5-66B208A26533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB7726CB-2593-4391-81C5-66B208A26533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B6FBDA4-82B5-49A8-B816-82C97F5DD9ED} = {576A85CB-69E5-448A-B7EF-BA58494B2A48}
+		{00C8F7AF-2886-46FA-BD81-882C4C8AE16A} = {42B9657C-92A5-49CA-9CBB-10CEE5446679}
+		{7776C587-CE78-4106-B290-732DAF4638E7} = {42B9657C-92A5-49CA-9CBB-10CEE5446679}
+		{7989168B-4793-4B10-8883-FB3D61C68C0C} = {4EE62CEC-103F-44A5-A144-49C95F54AB88}
+		{CB7726CB-2593-4391-81C5-66B208A26533} = {4EE62CEC-103F-44A5-A144-49C95F54AB88}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16DBD0F0-4E5A-4AE4-A426-D36C0E4B9CD1}
+	EndGlobalSection
+EndGlobal

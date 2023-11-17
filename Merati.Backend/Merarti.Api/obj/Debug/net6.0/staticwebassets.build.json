@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "f5DtJR1EChEt43WxT/HyCnnW8fLAbz80DUMtkTEo1hU=",
+  "Source": "Merarti.Api",
+  "BasePath": "_content/Merarti.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

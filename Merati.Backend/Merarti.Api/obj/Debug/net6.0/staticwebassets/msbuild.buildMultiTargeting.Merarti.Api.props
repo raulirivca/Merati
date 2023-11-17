@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Merarti.Api.props" />
+</Project>
