@@ -1,0 +1,11 @@
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\bin\Debug\net6.0\Merati.Model.deps.json
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\bin\Debug\net6.0\Merati.Model.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\bin\Debug\net6.0\Merati.Model.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\obj\Debug\net6.0\Merati.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\obj\Debug\net6.0\Merati.Model.AssemblyInfoInputs.cache
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\obj\Debug\net6.0\Merati.Model.AssemblyInfo.cs
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\obj\Debug\net6.0\Merati.Model.csproj.CoreCompileInputs.cache
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\obj\Debug\net6.0\Merati.Model.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\obj\Debug\net6.0\refint\Merati.Model.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\obj\Debug\net6.0\Merati.Model.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Model\obj\Debug\net6.0\ref\Merati.Model.dll
