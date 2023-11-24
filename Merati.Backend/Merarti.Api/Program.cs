@@ -1,5 +1,6 @@
 using Merati.Queries.Perfil;
 using Merati.Queries.Producto;
+using Merati.Repository.Perfil;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,6 +30,7 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 //builder.Services.AddTransient<IProductTypeQueries, ProductTypeQueries>();
 builder.Services.AddTransient<IProductoQueries, ProductoQueries>();
 builder.Services.AddTransient<IPerfilQueries, PerfilQueries>();
+builder.Services.AddTransient<IPerfilRepository, PerfilRepository>();
 //builder.Services.AddTransient<IProductRepository, ProductRepository>();
 
 var app = builder.Build();

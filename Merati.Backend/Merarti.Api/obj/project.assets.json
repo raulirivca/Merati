@@ -328,6 +328,16 @@
           }
         }
       },
+      "Merati.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Merati.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Merati.Model.dll": {}
+        }
+      },
       "Merati.Queries/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -342,6 +352,22 @@
         },
         "runtime": {
           "bin/placeholder/Merati.Queries.dll": {}
+        }
+      },
+      "Merati.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dapper": "2.1.21",
+          "Merati.Model": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Merati.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Merati.Repository.dll": {}
         }
       },
       "Merati.ViewModel/1.0.0": {
@@ -1225,10 +1251,20 @@
         "version.txt"
       ]
     },
+    "Merati.Model/1.0.0": {
+      "type": "project",
+      "path": "../Merati.Model/Merati.Model.csproj",
+      "msbuildProject": "../Merati.Model/Merati.Model.csproj"
+    },
     "Merati.Queries/1.0.0": {
       "type": "project",
       "path": "../Merati.Queries/Merati.Queries.csproj",
       "msbuildProject": "../Merati.Queries/Merati.Queries.csproj"
+    },
+    "Merati.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Merati.Repository/Merati.Repository.csproj",
+      "msbuildProject": "../Merati.Repository/Merati.Repository.csproj"
     },
     "Merati.ViewModel/1.0.0": {
       "type": "project",
@@ -1239,6 +1275,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Merati.Queries >= 1.0.0",
+      "Merati.Repository >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.5",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -1272,6 +1309,9 @@
           "projectReferences": {
             "C:\\Users\\Soporte\\Desktop\\Projecto Raul\\MeratiSAC\\Merati.Backend\\Merati.Backend\\Merati.Queries\\Merati.Queries.csproj": {
               "projectPath": "C:\\Users\\Soporte\\Desktop\\Projecto Raul\\MeratiSAC\\Merati.Backend\\Merati.Backend\\Merati.Queries\\Merati.Queries.csproj"
+            },
+            "C:\\Users\\Soporte\\Desktop\\Projecto Raul\\MeratiSAC\\Merati.Backend\\Merati.Backend\\Merati.Repository\\Merati.Repository.csproj": {
+              "projectPath": "C:\\Users\\Soporte\\Desktop\\Projecto Raul\\MeratiSAC\\Merati.Backend\\Merati.Backend\\Merati.Repository\\Merati.Repository.csproj"
             }
           }
         }

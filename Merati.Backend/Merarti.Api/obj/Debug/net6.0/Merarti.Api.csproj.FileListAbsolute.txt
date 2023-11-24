@@ -44,3 +44,7 @@ C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\M
 C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merarti.Api\obj\Debug\net6.0\Merarti.Api.pdb
 C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merarti.Api\obj\Debug\net6.0\Merarti.Api.genruntimeconfig.cache
 C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merarti.Api\obj\Debug\net6.0\ref\Merarti.Api.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merarti.Api\bin\Debug\net6.0\Merati.Model.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merarti.Api\bin\Debug\net6.0\Merati.Repository.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merarti.Api\bin\Debug\net6.0\Merati.Repository.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merarti.Api\bin\Debug\net6.0\Merati.Model.pdb

@@ -9,6 +9,7 @@
       "Merarti.Api/1.0.0": {
         "dependencies": {
           "Merati.Queries": "1.0.0",
+          "Merati.Repository": "1.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -182,6 +183,11 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
+      "Merati.Model/1.0.0": {
+        "runtime": {
+          "Merati.Model.dll": {}
+        }
+      },
       "Merati.Queries/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.21",
@@ -191,6 +197,17 @@
         },
         "runtime": {
           "Merati.Queries.dll": {}
+        }
+      },
+      "Merati.Repository/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.21",
+          "Merati.Model": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "runtime": {
+          "Merati.Repository.dll": {}
         }
       },
       "Merati.ViewModel/1.0.0": {
@@ -353,7 +370,17 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
+    "Merati.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Merati.Queries/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Merati.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

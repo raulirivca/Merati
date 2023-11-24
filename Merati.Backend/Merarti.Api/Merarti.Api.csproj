@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Merati.Queries\Merati.Queries.csproj" />
+    <ProjectReference Include="..\Merati.Repository\Merati.Repository.csproj" />
   </ItemGroup>
 
 </Project>

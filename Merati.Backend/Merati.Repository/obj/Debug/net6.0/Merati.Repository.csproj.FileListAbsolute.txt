@@ -1,0 +1,15 @@
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\bin\Debug\net6.0\Merati.Repository.deps.json
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\bin\Debug\net6.0\Merati.Repository.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\bin\Debug\net6.0\Merati.Repository.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\bin\Debug\net6.0\Merati.Model.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\bin\Debug\net6.0\Merati.Model.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\Merati.Repository.csproj.AssemblyReference.cache
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\Merati.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\Merati.Repository.AssemblyInfoInputs.cache
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\Merati.Repository.AssemblyInfo.cs
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\Merati.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\Merati.Repository.csproj.CopyComplete
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\Merati.Repository.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\refint\Merati.Repository.dll
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\Merati.Repository.pdb
+C:\Users\Soporte\Desktop\Projecto Raul\MeratiSAC\Merati.Backend\Merati.Backend\Merati.Repository\obj\Debug\net6.0\ref\Merati.Repository.dll
